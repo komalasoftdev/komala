@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <meta charrset="UTF-8">
+    <meta name="viewpoint"
+    content="width=device-width, initial-scale=1.0"
+    <title> Comprehensive HTML Form </title>
+    <form action="/submit" method="post">
+    <!--Text, password, Email, URL, Tel, Search -->
+    <label for="username">Username:</label>
+    <input type="text" id="username"
+    name="username" placeholder="Enter username" requrid><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email"
+     name="email" placeholder="Enter Email"> <br>
+     <label for="website">Website:</label>
+     <input type="url" id="website"
+     name="website" placeholder="html://example.com"><br>
+     <label for="phone">Phone:</label>
+     <input type="tel" id="phone"
+     name="phone" placeholder="123-456-7890"><br>
+     <label for="search">Search:</label>
+     <input type="search" id="search"
+     name="search" placeholder="search..."><br>
+     <!--Date and Time input-->
+     <label for="birthday">Birthday:</label>
+     <input type="date" id="birthday"
+     name="birthday"><br>
+     <label for="appt">Appointmentb Time:</label>
+     <input type="time" id="appt"
+     name="appt"><br>
+     <label for="meeting">Meeting (local datatime):</label>
+     <input type="datatime-local" id="meeting"
+     name="meeting"><br>
+     <label for="week">Week:</label>
+     <input type="week" id="week"
+     name="week"><br>
+     <label for="month">Month:</label>
+     <input type="month" id="month"
+     name="month"><br>
+     <label for="quantity">Quantity:</label>
+     <input type="number" id="quantity"
+     name="quantity" palceholder="Enter a nmuber" min="1" max="10"><br>
+     <label for="volume">Volume:</label>
+     <input type="range" id="volume"
+     name="volume" min="0" max="100"><br>
+     <label for="favcolor">Favorite Color:</label>
+     <input type="color" id="favcolor"
+     jjvname="favcolor"><br>
+    <!--File and Hidden-->
+     <label for="avatar">Upload Avator:</label>
+     <input type="file" id="avatar"
+     name="avatar"><br>
+     <input type="hidden" name="userid" value="1234">
+     <!--Checkboxes and Radios-->
+     <label><input type="checkbox" name="subscribe" checked>Subcscribe</label><br>
+     <label>Gender:</label>
+     <label><input type="radio" name="gender" value="male">Male</label>
+     <label><input type="radio" name="gender" value="female">Female</label>
+     <!---Textarea-->
+     <label for="comment">Comment:</label><br>
+     <textarea id="comments" name="comments" placeholder="Enter your comment"></textarea><br>
+     <!---Select and Datalist-->
+     <label for="country">Country:</label>
+     <select id="country" name="country">
+     <option value="">Select country</option>
+     <option value="us">USA</option>
+     <option value="ca">Canada</option>
+     <option value="uk">UK</option>
+     </select><br>
+     <label for="browser">Browser:</label>
+     <input list="browser" id="browser" name="browser" placeholder="Choose browser">
+     <datalist id="browser">
+     <option value="">Select country</option>
+     <option value="us">USA</option>
+     <option value="ca">Canada</option>
+     <option value="uk">UK</option>
+     </datalist><br>
+     <!---Buttton-->
+     <button type="submitt">Submitt</button>
+     <button type="reset">Reset</button>
+     <input type="button" value="Click Me" onclick="alert('Button clicked')">
+    </form>
+          
+</body>
+</html>
